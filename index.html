@@ -27,16 +27,16 @@
           <div
             id="progressBar"
             class="absolute top-0 left-0 h-full bg-cyan-400 rounded-full"
-            style="width: 89.5%"
+            style="width: 95.0%"
           ></div>
         </div>
 
         <div class="text-xl text-gray-300">
           Current:
           <span id="currentSubs" class="text-cyan-400 font-semibold"
-            >8,800</span
+            >9,500</span
           >
-          subscribers (89% complete)
+          subscribers (95% complete)
         </div>
 
         <div class="rounded-lg overflow-hidden shadow-lg">
@@ -129,7 +129,7 @@
 
         <!-- Footer -->
         <div class="text-center text-xl text-gray-400 mb-5">
-          Leaderboard updates every wednesday at 12:00 AM EST <br />
+          Leaderboard updates every 6 Hours  <br />
           <span class="text-green-400 text-xs mt-1 inline-block"
             >● Live Updates Active</span
           >
@@ -223,7 +223,7 @@
                 <li>🧾 Submitting in Telegram is mandatory to get points. If you don’t post in the Telegram group, your entry won’t be counted.</li>
                 <li> ✅ Step 3: Join Referral Program (Optional but Powerful)
                 </li>
-                <li>Click the "Join Referral Program". You will receive a Referral ID via email In 12 Hours.Share this ID and refer your friends to join.</li>
+                <li>Click the "Join Referral Program". You will receive a Referral ID via email In 3 Hours.Share this ID and refer your friends to join.</li>
                 <li>Your referred friend must complete Step 1 and Step 2. They must mention your Referral ID in their Telegram post.</li>
               </ul>
 
@@ -375,7 +375,7 @@
         <span class="text-[#00ffc3]">🏅</span>  Winner Selection Criteria
       </h2>
       <p class="text-gray-300 mt-2 text-xl">
-        📌 Giveaway Start: July 1, 2025 Giveaway End: July 30 ⏳
+        📌 Giveaway Start: July 1, 2025 Giveaway End: July 30 (11:59:59 PM) ⏳
       </p>
 
       <!-- Unlock Box -->
@@ -399,7 +399,9 @@
           <li>✔ A final Leaderboard will be published 24H before the draw</li>
           <li>✔ Giveaway End July 30 (12 PM ) Admin decision is final in case of any conflict.</li>
           <li>✔ Referral IDs must be posted in the Telegram group with your friends’ screenshots.</li>
-          <li>✔ If, for any reason, we fail to reach 10,000 subscribers by July 30, the giveaway program will be terminated. In that case, a lottery will be held among all participants, and 10 people will be rewarded with small cash prizes (3-digit amounts only).</li>
+          <li>If, for any reason, the goal of reaching 10,000 subscribers is not achieved by July 30, 2025, at 11:59:59 PM, the giveaway program will be officially terminated. </li>
+          <li>In such a case, the following actions will take place: 1. The top three participants on the leaderboard will each receive a random 3-digit cash prize as a token of appreciation for their efforts.
+            2. A lottery draw will be conducted among all eligible participants. Five winners will be selected at random to receive small cash prizes, each consisting of a 3-digit amount. </li>
         </ul>
         <button
           id="unlockbtn"
@@ -501,14 +503,14 @@
 
         // ✅ Leaderboard logic
         const users = [
-          { initials: "JTM", name: "NACr38", rank: 1, points: 3810 },
-          { initials: "MS", name: "NACr49", rank: 2, points: 2110 },
-          { initials: "MS", name: "NACr10", rank: 2, points: 1510 },
-          { initials: "MR", name: "NACr05", rank: 3, points: 1010 },
-          { initials: "DK", name: "NACr30", rank: 4, points: 1010 },
-          { initials: "EW", name: "NACr44", rank: 5, points: 310 },
-          { initials: "LT", name: "NACr31", rank: 6, points: 310 },
-          { initials: "RP", name: "NACr23", rank: 7, points: 210 },
+          { initials: "JTM", name: "NACr38", rank: 1, points: 6080 },
+          { initials: "MS", name: "NACr49", rank: 2, points: 3200 },
+          { initials: "MS", name: "NACr30", rank: 3, points: 3040 },
+          { initials: "MR", name: "NACr10", rank: 4, points: 2400 },
+          { initials: "DK", name: "NACr30", rank: 5, points: 1600 },
+          { initials: "EW", name: "NACr44", rank: 6, points: 310 },
+          { initials: "LT", name: "NACr31", rank: 7, points: 310 },
+          { initials: "RP", name: "NACr23", rank: 8, points: 210 },
         ];
 
         const container = document.getElementById("leaderboard");
